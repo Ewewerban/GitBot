@@ -18,9 +18,3 @@
 * `discord.py`
 * GitHub REST API
 * Hosting: Render.com (Web Service)
-
-### ⚙️ Instalacja i Uruchomienie Lokalnie
-1. Klonuj repozytorium:
-   ```bash
-   git clone [https://github.com/twoj-nick/GitBotKod.git](https://github.com/twoj-nick/GitBotKod.git)
-   cd GitBotKod
