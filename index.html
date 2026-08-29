@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitBot - Nieoficjalny Bot GitHub dla Discorda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin: 50px 0 30px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            color: #8b949e;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2ea043;
+        }
+
+        .features {
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: #21262d;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #58a6ff;
+        }
+
+        .feature-card h3 {
+            color: #f0f6fc;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🤖 GitBot</h1>
+        <p class="subtitle">Nieoficjalny bot Discord połączony z GitHubem</p>
+    </header>
+
+    <div class="container">
+        <h2>O Projekcie</h2>
+        <p style="margin-top: 10px; line-height: 1.6;">
+            GitBot pozwala łatwo podglądać repozytoria, statystyki i aktywność z GitHuba bezpośrednio na Twoim serwerze Discord!
+        </p>
+
+        <a href="#" class="btn">Dodaj bota do Discorda</a>
+
+        <div class="features">
+            <h2>Główne Funkcje</h2>
+            
+            <div class="feature-card">
+                <h3>⭐ Statystyki Repozytorium</h3>
+                <p>Użyj komendy <code>!repo nazwa/projekt</code>, aby sprawdzić liczbę gwiazdek, forków i opis repozytorium.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>👤 Podgląd Profilu</h3>
+                <p>Szybkie sprawdzanie informacji o użytkownikach GitHuba.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Stworzone przez 13-letniego dewelopera 🚀 | Projekt Open Source</p>
+    </footer>
+
+</body>
+</html>
